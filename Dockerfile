@@ -1,5 +1,5 @@
 # FROM frolvlad/alpine-oraclejdk8:slim
-FROm carsharing/alpine-oraclejdk8-bash
+FROM carsharing/alpine-oraclejdk8-bash
 VOLUME /tmp
 ADD target/spring-petclinic-rest-1.7.jar app.jar
 RUN sh -c 'touch /app.jar'
